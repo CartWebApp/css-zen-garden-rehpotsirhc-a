@@ -1,37 +1,101 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
-body {
-    background-color:#E1E1E0; 
-}
-
 .page-wrapper {
-    
+
     border:1px solid #2e3f64;
     width:70vw;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
+    flex-direction: column;
     margin: auto ;
+    flex-wrap:nowrap;
+    color:white;
+
+}
+
+body{
+    background-color:rgb(231, 231, 231)
 }
 
 div [role=banner] {
     color:white;
     background-color: black; opacity:0.75 ;
-    width: 285px;
+    width: 1872px;
+    height: 1053px;
     text-align: left;
     padding:8px;
-    margin-top:15px;
-    margin-left:15px;
-    border:0px solid #2e3f64; 
-    border-radius:2%;
-
+    margin:10px;
+    border:0px solid #ffffff; 
+    border-radius:2%; 
+    border-bottom: 10px solid #ffffff;
+    background-image: url(ezgif-6-b7b070ac32.png);
+    background-repeat: no-repeat;
 }
+
+
 h1{
     margin-left:30px;
     font-size: 30px;
 }
+
 h2{
     margin-left:62px;
     font-size: 14px;
+}
+
+h3{
+    font-size:40px;
+}
+
+p{
+    font-size:20px
+}
+
+.page-wrapper {
+    background-image: linear-gradient(-140deg, #60803E, #1A2C01);
+  }
+
+.summary{
+    display:flex;
+    flex-direction:column;
+    border:1px solid rgb(255, 255, 255);
+    width:200px;
+    margin:10px
+}
+
+.preamble {
+    border:1px solid #ffffff;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    margin:10px
+}
+
+#design-selection{
+    border:#ffffff solid 1px;
+    display:flex;
+    flex-direction:column;
+    width: 200px;
+    margin:10px
+}
+
+#zen-supporting{
+    border:1px solid #ffffff;
+    width:600px;
+    display:flex;
+    flex-direction:column;
+    margin:10px
+}
+
+.design-archives{
+    border:#ffffff solid 1px;
+    display:flex;
+    flex-direction:column;
+    width: 200px;
+    margin:10px
+}
+
+.zen-resources{
+    border:#ffffff solid 1px;
+    display:flex;
+    flex-direction:column;
+    width: 200px;
+    margin:10px
 }
