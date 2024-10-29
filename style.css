@@ -1,101 +1,195 @@
 .page-wrapper {
-
-    border:1px solid #2e3f64;
-    width:70vw;
+    border:0px solid #ffffff;
+    width:1200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto ;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     color:white;
-
+    align-items:flex-start;
+    justify-content:flex-start;
 }
 
 body{
-    background-color:rgb(231, 231, 231)
+    background-color:rgb(218, 218, 218)
 }
 
 div [role=banner] {
-    color:white;
-    background-color: black; opacity:0.75 ;
-    width: 1872px;
-    height: 1053px;
+    color:rgb(0, 0, 0);
+    background-color: black; opacity:1;
+    width: 1133px;
+    height: 630px;
     text-align: left;
     padding:8px;
-    margin:10px;
-    border:0px solid #ffffff; 
+    margin-left:20px;
+    margin-top:20px;
+    border:5px solid #ffffff; 
     border-radius:2%; 
-    border-bottom: 10px solid #ffffff;
     background-image: url(ezgif-6-b7b070ac32.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
-
-h1{
-    margin-left:30px;
-    font-size: 30px;
+[role=banner] > h1{
+    margin-left:10px;
+    font-size: 45px;
+    font-family: "Tahoma"
 }
 
 h2{
-    margin-left:62px;
-    font-size: 14px;
+    margin-left:25px;
+    font-size: 25px;
+    font-family: "Tahoma"
 }
 
-h3{
-    font-size:40px;
+div h3{
+    font-size:35px;
+    font-family: "Tahoma"
 }
 
 p{
-    font-size:20px
+    font-size:20px;
+    font-family: "Tahoma";
+    margin-left:35px;
+}
+
+*abbr{
+    font-size:20px;
+    font-family: "Tahoma";
+    color:white;
+}
+
+a:link{
+    font-size:20px;
+    font-family: "Tahoma";
+    color:rgb(222, 222, 222);
+}
+
+a, abbr:hover{
+    font-size:20px;
+    font-family: "Tahoma";
+    color:white;
+}
+
+a:visited {
+    font-size:20px;
+    font-family: "Tahoma";
+    color:rgb(132, 132, 132);
+}
+
+a:visited:hover {
+    font-size:20px;
+    font-family: "Tahoma";
+    color:rgb(255, 255, 255);
 }
 
 .page-wrapper {
-    background-image: linear-gradient(-140deg, #60803E, #1A2C01);
+    background-image: linear-gradient(-150deg, #60803E, #1a2c00);
   }
 
 .summary{
     display:flex;
     flex-direction:column;
-    border:1px solid rgb(255, 255, 255);
-    width:200px;
-    margin:10px
+    border:3px solid rgb(255, 255, 255);
+    padding-left: 39px;
+    padding-right:39px;
+    width:1096px;
+    margin:10px;
+    align-items:center;
 }
 
 .preamble {
-    border:1px solid #ffffff;
-    width:600px;
+    border:0px solid #ffffff;
+    width:1145px;
     display:flex;
     flex-direction:column;
-    margin:10px
+    margin:10px;
+    margin-bottom:40px;
+    padding-left:10px;
+    padding-right:20px
+
 }
 
 #design-selection{
-    border:#ffffff solid 1px;
+    border:#ffffff solid 3px;
     display:flex;
     flex-direction:column;
-    width: 200px;
-    margin:10px
+     width: 250px;
+    margin-top:10px;
+    margin-left:14px;
+    align-self:flex-end;
+    padding-left:10px
 }
 
-#zen-supporting{
-    border:1px solid #ffffff;
-    width:600px;
+.main.supporting{
+    border:0px solid #ffffff;
+    width:900px;
     display:flex;
     flex-direction:column;
-    margin:10px
+    margin:0px;
+    padding-left:10px;
+}
+
+.supporting .explanation{
+    border:0px solid #ffffff;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-left:10px
+}
+
+div.participation{
+    border:0px solid #ffffff;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-left:10px
+}
+
+.benefits{
+    border:0px solid #ffffff;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-left:10px
+}
+
+.requirements{
+    border:0px solid #ffffff;
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-left:10px;
 }
 
 .design-archives{
-    border:#ffffff solid 1px;
+    border:#ffffff solid 3px;
     display:flex;
     flex-direction:column;
-    width: 200px;
-    margin:10px
+    width: 250px;
+    margin-top:10px;
+    margin-left:14px;
+    align-self:flex-end;
+    padding-left:10px
 }
 
 .zen-resources{
-    border:#ffffff solid 1px;
+    border:#ffffff solid 3px;
     display:flex;
     flex-direction:column;
-    width: 200px;
-    margin:10px
+    width: 250px;
+    margin-top:10px;
+    margin-left:14px;
+    align-self:flex-end;
+    padding-left:10px
+}
+
+footer{
+    display:flex;
+    align-self:flex-start;
+    padding-left:1000px;
 }
