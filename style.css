@@ -1,6 +1,7 @@
+
 .page-wrapper {
     border:0px solid #ffffff;
-    width:1200px;
+    width:800px;
     display: flex;
     flex-direction: row;
     margin: auto ;
@@ -8,38 +9,45 @@
     color:white;
     align-items:flex-start;
     justify-content:flex-start;
+    background-image:url(pngwingbursh.png) ;
 }
 
 body{
-    background-color:rgb(218, 218, 218)
+    background-image:url(pngwingtree.png), url(pngwing.com.png), url(pngwingleaf.png), url(pngwingvine.png); 
+    background-color: rgb(218, 218, 218);
+    background-repeat: no-repeat;
+    background-position: 1410px 900px, 630px 40px, -170px 8px, 120px 2000px ;
+    background-size: 600px, 1200px, 1000px, 600px;
 }
 
 div [role=banner] {
     color:rgb(0, 0, 0);
     background-color: black; opacity:1;
-    width: 1133px;
-    height: 630px;
+    width: 735px;
+    height: 406px;
     text-align: left;
     padding:8px;
     margin-left:20px;
     margin-top:20px;
     border:5px solid #ffffff; 
     border-radius:2%; 
-    background-image: url(ezgif-6-b7b070ac32.png);
+    background: url(ezgif-6-b7b070ac32.png);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 [role=banner] > h1{
     margin-left:10px;
-    font-size: 45px;
-    font-family: "Tahoma"
+    font-size: 30px;
+    font-family: "Tahoma";
 }
 
-h2{
-    margin-left:25px;
-    font-size: 25px;
+
+h2 {
+    margin-left:15px;
+    font-size: 18px;
     font-family: "Tahoma"
+    background-color: #ffffff;
 }
 
 div h3{
@@ -65,10 +73,16 @@ a:link{
     color:rgb(222, 222, 222);
 }
 
-a, abbr:hover{
+a:link:hover{
     font-size:20px;
     font-family: "Tahoma";
-    color:white;
+    color:rgb(255, 255, 255);
+}
+
+abbr:link:hover{
+    font-size:20px;
+    font-family: "Tahoma";
+    color:rgb(255, 255, 255);
 }
 
 a:visited {
@@ -84,7 +98,10 @@ a:visited:hover {
 }
 
 .page-wrapper {
-    background-image: linear-gradient(-150deg, #60803E, #1a2c00);
+    background-image: url(pngwingbursh.png), linear-gradient(-150deg, #60803E, #1a2c00), url(pngwingbursh.png);
+    background-repeat: no-repeat;
+    background-position:780px 2270px , 0px;
+    background-size: 500px, 100%;
   }
 
 .summary{
@@ -93,41 +110,33 @@ a:visited:hover {
     border:3px solid rgb(255, 255, 255);
     padding-left: 39px;
     padding-right:39px;
-    width:1096px;
+    width:699px;
     margin:10px;
     align-items:center;
 }
 
 .preamble {
     border:0px solid #ffffff;
-    width:1145px;
+    width:760px;
     display:flex;
     flex-direction:column;
     margin:10px;
     margin-bottom:40px;
     padding-left:10px;
-    padding-right:20px
-
+    padding-right:20px;
+    line-height: 30px;
 }
 
-#design-selection{
-    border:#ffffff solid 3px;
-    display:flex;
-    flex-direction:column;
-     width: 250px;
-    margin-top:10px;
-    margin-left:14px;
-    align-self:flex-end;
-    padding-left:10px
-}
+
 
 .main.supporting{
     border:0px solid #ffffff;
-    width:900px;
+    width:760px;
     display:flex;
     flex-direction:column;
     margin:0px;
     padding-left:10px;
+    line-height: 30px;
 }
 
 .supporting .explanation{
@@ -166,11 +175,23 @@ div.participation{
     padding-left:10px;
 }
 
+#design-selection{
+    border:#ffffff solid 3px;
+    display:flex;
+    flex-direction:row;
+     width: 758px;
+    margin-top:10px;
+    margin-left:14px;
+    align-self:flex-end;
+    padding-left:10px
+    
+}
+
 .design-archives{
     border:#ffffff solid 3px;
     display:flex;
-    flex-direction:column;
-    width: 250px;
+    flex-direction:row;
+    width: 759px;
     margin-top:10px;
     margin-left:14px;
     align-self:flex-end;
@@ -180,16 +201,22 @@ div.participation{
 .zen-resources{
     border:#ffffff solid 3px;
     display:flex;
-    flex-direction:column;
-    width: 250px;
+    flex-direction:row;
+    width: 759px;
     margin-top:10px;
+    margin-bottom:20px;
     margin-left:14px;
     align-self:flex-end;
-    padding-left:10px
+    padding-left:10px;
+    background-image: url(1769829-plant_peashooter_thumb.png), url(Sunflower2009HD.webp);
+    background-repeat: no-repeat;
+    background-size: 140px, 130px;
+    background-position: 460px 10px, 620px 4px;
+    background-clip: ;
 }
 
 footer{
     display:flex;
-    align-self:flex-start;
-    padding-left:1000px;
+    padding-left:560px;
+    margin-bottom:50px;;
 }
