@@ -46,7 +46,7 @@ div [role=banner] {
     font-family: "Tahoma";
 }
 
-h2 {
+h2{
     margin-left:15px;
     font-size: 18px;
     font-family: "Tahoma";
@@ -145,6 +145,9 @@ a:visited:hover {
     font-size:20px;
     font-family: "Tahoma";
     color:rgb(255, 255, 255);
+}
+p::selection{
+    color: #60803E;
 }
 
 .page-wrapper {
@@ -265,7 +268,7 @@ div.participation{
     background-position: 460px 10px, 620px 4px;
 }
 
-footer{
+footer:last-child{
     display:flex;
     padding-left:560px;
     margin-bottom:50px;;
