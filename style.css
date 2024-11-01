@@ -46,7 +46,7 @@ div [role=banner] {
     font-family: "Tahoma";
 }
 
-h2{
+h2:only-of-type{
     margin-left:15px;
     font-size: 18px;
     font-family: "Tahoma";
@@ -63,12 +63,12 @@ div h3{
 
 h2::first-letter{
     font-size: 20px;
+    font-family: "Tahoma"
 }
 
 h3 + p {
     font-size:20px;
     font-family: "Tahoma";
-
 }
 
 p:last-of-type{
@@ -83,7 +83,7 @@ p:nth-child(3){
     margin-left:25px;
 }
 
-p:nth-child(4){
+p:nth-last-of-type(3){
     margin-left:25px;
 }
 
@@ -94,7 +94,6 @@ p:nth-last-child(2){
 p ~ p{
     font-size:20px;
     font-family: "Tahoma";
-
 }
 
 abbr ~ p{
@@ -135,6 +134,46 @@ abbr:link:hover{
     color:rgb(255, 255, 255);
 }
 
+p::selection{
+    color: #8bd228;
+}
+
+abbr::selection{
+    color: #8bd228;
+}
+
+a::selection{
+    color: #8bd228;
+}
+
+h1::selection{
+    color: #8bd228;
+}
+
+h2::selection{
+    color: #8bd228;
+}
+
+h3:first-child::selection{
+    color: #8bd228;
+}
+
+ul:nth-of-type(1) {
+    list-style: none;
+  }
+
+a:focus{
+   color: rgb(169, 255, 103);
+}
+
+li::first-line{
+    color: rgb(36, 36, 36);
+}
+
+a[href*="https"]{
+    color:rgb(220, 32, 132) ;
+}
+
 a:visited {
     font-size:20px;
     font-family: "Tahoma";
@@ -146,9 +185,7 @@ a:visited:hover {
     font-family: "Tahoma";
     color:rgb(255, 255, 255);
 }
-p::selection{
-    color: #60803E;
-}
+
 
 .page-wrapper {
     background-image: url(pngwingbursh.png), linear-gradient(-150deg, #60803E, #1a2c00);
@@ -163,7 +200,7 @@ p::selection{
     border:3px solid rgb(255, 255, 255);
     padding-left: 39px;
     padding-right:39px;
-    width:699px;
+    width:697px;
     margin:10px;
     align-items:center;
     font-family: "Tahoma";
@@ -242,10 +279,9 @@ div.participation{
     flex-direction:column;
      width: 200px;
     margin-top:10px;
-    margin-left:14px;
+    margin-left:25px;
     align-self:flex-end;
     padding-left:10px
-    
 }
 
 .design-archives{
@@ -254,7 +290,7 @@ div.participation{
     flex-direction:column;
     width: 200px;
     margin-top:10px;
-    margin-left:14px;
+    margin-left:25px;
     align-self:flex-end;
     padding-left:10px
 }
@@ -266,11 +302,10 @@ div.participation{
     width: 200px;
     margin-top:10px;
     margin-bottom:20px;
-    margin-left:14px;
+    margin-left:25px;
     align-self:flex-end;
     padding-left:10px;
 }
-
 
 footer:last-child{
     padding-left:80px;
