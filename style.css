@@ -110,11 +110,11 @@ abbr ~ p{
 
 a:active {
     color: rgb(12, 186, 59);
-  }
+}
 
 abbr:active {
     color: rgb(12,186,59);
-  }
+}
 
 a:link{
     font-size:20px;
@@ -160,19 +160,20 @@ h3:first-child::selection{
 
 ul:nth-of-type(1) {
     list-style: none;
-  }
+}
 
 a:focus{
-   color: rgb(169, 255, 103);
+    color: rgb(169, 255, 103);
+}
+
+abbr:focus{
+    color: rgb(169, 255, 103);
 }
 
 li::first-line{
-    color: rgb(36, 36, 36);
+    color: rgb(220, 32, 132);
 }
 
-a[href*="https"]{
-    color:rgb(220, 32, 132) ;
-}
 
 a:visited {
     font-size:20px;
@@ -186,13 +187,12 @@ a:visited:hover {
     color:rgb(255, 255, 255);
 }
 
-
 .page-wrapper {
     background-image: url(pngwingbursh.png), linear-gradient(-150deg, #60803E, #1a2c00);
     background-repeat: no-repeat;
     background-position:500px 2270px, 0px;
     background-size: 300px 600px, 100%;
-  }
+}
 
 .summary{
     display:flex;
